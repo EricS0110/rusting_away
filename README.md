@@ -6,6 +6,10 @@ This repo is my learning space for the Rust programming language.  Not too much 
 
 ----
 
+### [Super Useful Interactive Guide Book](https://rust-book.cs.brown.edu/)
+
+----
+
 ### How to get this set up...
 Windows PC:
 - Download the 64-bit installer from [this link](https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe)
@@ -34,3 +38,6 @@ a by-file basis as a pre-commit-like check.
 
 If you wanted to compile and run the code yourself, you can run the command `rustc {my-rust-file}`.  You can then run 
 the generated .exe file from the same terminal instance.
+
+If you want to just check if the code you've written compiles, you can just run `cargo check` and the compiler will 
+attempt to compile your code without creating an executable binary file.
