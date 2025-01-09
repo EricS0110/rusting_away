@@ -48,7 +48,9 @@ fn main() {
     let condition = true;
     let new_number = if condition { 5 } else { 6 };
 
-    println!("The value of number is: {new_number}");  // IDE doesn't like this way, but it DOES work
+    // IntellijIDEA doesn't like this way, but RustRover is perfectly happy with it
+    // AND it runs just fine
+    println!("The value of number is: {new_number}");
 
     let mut count = 0;
     'counting_up: loop {
